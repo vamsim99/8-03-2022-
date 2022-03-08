@@ -1,7 +1,11 @@
-#wap to check whether a number is palindrome or not
-number = int(input())
-dig = [int(x) for x in str(number)]
-if(dig == dig[::-1]):
-    print("number is palindrome")
+def palindrome(str):
+    if str == str[::-1]:
+        return true
+    else:
+        return false
+string = input("madam")
+result = palindrome(string)
+if result:
+    print("str is palindrome")
 else:
-    print("number is not palindrome")
+    print(str is not palindrome)
